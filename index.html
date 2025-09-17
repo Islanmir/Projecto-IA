@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Inteligência Artificial</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Menu principal">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#ia">IA</a></li>
+          <li class="nav-item"><a class="nav-link" href="#iot">IoT</a></li>
+          <li class="nav-item"><a class="nav-link" href="#blockchain">Blockchain</a></li>
+          <li class="nav-item"><a class="nav-link" href="#quantica">Computação Quântica</a></li>
+          <li class="nav-item"><a class="nav-link" href="#energias">Energias Renováveis</a></li>
+          <li class="nav-item"><a class="nav-link" href="#nanotecnologia">Nanotecnologia</a></li>
+          <li class="nav-item"><a class="nav-link" href="#biologia">Biologia Sintética</a></li>
+          <li class="nav-item"><a class="nav-link" href="#veiculos">Veículos Autónomos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#ferramentas">Ferramentas IA</a></li>
+        </ul>
+        <form class="d-flex" role="search" aria-label="Pesquisar">
+          <input class="form-control me-2" type="search" placeholder="Pesquisar..." aria-label="Pesquisar" />
+          <button class="btn btn-outline-light" type="submit">Pesquisar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header com Slideshow -->
+  <header id="headerCarousel" class="carousel slide mb-5" data-bs-ride="carousel" aria-label="Destaques">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/inteligencia.jpg" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="img/hashcash.jpg" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="img/tech.jpg" class="d-block w-100" alt="..." />
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#headerCarousel" data-bs-slide="prev" aria-label="Anterior"><span class="carousel-control-prev-icon"></span></button>
+    <button class="carousel-control-next" type="button" data-bs-target="#headerCarousel" data-bs-slide="next" aria-label="Próximo"><span class="carousel-control-next-icon"></span></button>
+  </header>
+
+  <section class="container my-5" id="galeria">
+  <h2 class="text-center mb-4">Galeria de Tecnologias</h2>
+  <div class="row g-3">
+
+    <div class="col-sm-6 col-md-4 text-center">
+      <figure>
+        <img src="img/leonardo.jpg" class="img-fluid rounded zoom" data-bs-toggle="modal" data-bs-target="#modalIA" alt="IA" />
+        <figcaption class="mt-2"><h4>IA (Inteligência Artificial)</h4>
+		<p>A Inteligência Artificial é a área da ciência da computação que cria sistemas capazes de aprender, raciocinar e tomar decisões de forma autônoma. Ela está presente em diversas aplicações do dia a dia, como assistentes virtuais, recomendações personalizadas e diagnósticos médicos, transformando a maneira como interagimos com a tecnologia.</p></figcaption>
+      </figure>
+    </div>
+
+    <div class="col-sm-6 col-md-4 text-center">
+      <figure>
+        <img src="img/artificial.jpg" class="img-fluid rounded zoom" data-bs-toggle="modal" data-bs-target="#modalIoT" alt="IoT" />
+        <figcaption class="mt-2"><h4>Internet das Coisas (IoT)</h4>
+		<p>A Internet das Coisas conecta objetos do quotidiano à internet, permitindo que eles recolham e compartilhem dados em tempo real. Isso inclui desde eletrodomésticos inteligentes até sensores em cidades, promovendo automação, eficiência e melhorias na qualidade de vida.</p></figcaption>
+      </figure>
+    </div>
+
+    <div class="col-sm-6 col-md-4 text-center">
+      <figure>
+        <img src="img/blockchain.jpg" class="img-fluid rounded zoom" data-bs-toggle="modal" data-bs-target="#modalBlockchain" alt="Blockchain" />
+        <figcaption class="mt-2"><h4>Blockchain</h4><p>Blockchain é uma tecnologia de registo distribuído que garante transparência, segurança e imutabilidade das informações. Muito usada em criptomoedas, ela também tem potencial para revolucionar setores como finanças, cadeias de suprimento e votação eletrónica.</p></figcaption>
+      </figure>
+    </div>
+
+    <div class="col-sm-6 col-md-4 text-center">
+      <figure>
+        <img src="img/nanotecnologia.jpeg" class="img-fluid rounded zoom" data-bs-toggle="modal" data-bs-target="#modalIA" alt="IA" />
+        <figcaption class="mt-2"><h4>Nanotecnologia</h4><p>A nanotecnologia trabalha com materiais e dispositivos em escala nanométrica (milionésimos de milímetro). Suas aplicações vão desde a medicina, com entrega direccionada de medicamentos, até a criação de materiais mais resistentes e eficientes.</p></figcaption>
+      </figure>
+    </div>
+
+    <div class="col-sm-6 col-md-4 text-center">
+      <figure>
+        <img src="img/quantica.jpg" class="img-fluid rounded zoom" data-bs-toggle="modal" data-bs-target="#modalIoT" alt="IoT" />
+        <figcaption class="mt-2"><h4>Computação Quântica</h4><p>A Computação Quântica usa os princípios da física quântica para processar informações de forma muito mais rápida e eficiente do que os computadores tradicionais. Essa tecnologia pode revolucionar áreas como criptografia, simulação molecular e inteligência artificial.</p></figcaption>
+      </figure>
+    </div>
+
+    <div class="col-sm-6 col-md-4 text-center">
+      <figure>
+        <img src="img/biologia.jpg" class="img-fluid rounded zoom" data-bs-toggle="modal" data-bs-target="#modalBlockchain" alt="Blockchain" />
+        <figcaption class="mt-2"><h4>Biologia Sintética</h4><p>A Biologia Sintética combina engenharia e biologia para projetar e construir organismos vivos ou sistemas biológicos com funções específicas. Essa área tem grande potencial em produção sustentável, desenvolvimento de novos medicamentos e biocombustíveis.</p></figcaption>
+      </figure>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Modais -->
+  <!-- IA -->
+  <div class="modal fade" id="modalIA" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Inteligência Artificial</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+			</div>
+				<div class="modal-body">A IA está revolucionando o mundo em saúde, transporte, indústria e mais.</div>
+				</div>
+		</div>
+  </div>
+  <!-- IoT -->
+  <div class="modal fade" id="modalIoT" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog"><div class="modal-content">
+      <div class="modal-header"><h5 class="modal-title">Internet das Coisas</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+	  </div>
+		<div class="modal-body">Dispositivos conectados transformam casas, cidades e indústrias inteligentes.</div>
+		</div>
+	</div>
+  </div>
+  <!-- Blockchain -->
+  <div class="modal fade" id="modalBlockchain" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog"><div class="modal-content">
+      <div class="modal-header"><h5 class="modal-title">Blockchain</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+	  </div>
+		<div class="modal-body">Segurança, transparência e descentralização com blockchain.</div>
+		</div>
+	</div>
+  </div>
+
+  <!-- Contato & Chatbot -->
+<section class="container my-5" id="contato">
+    <h2 class="text-center mb-4">Contacto</h2>
+    <form aria-label="Formulário de contacto">
+      <div class="mb-3"><label for="nome" class="form-label">Nome</label><input type="text" id="nome" class="form-control" required></div>
+      <div class="mb-3"><label for="email" class="form-label">E‑mail</label><input type="email" id="email" class="form-control" required></div>
+      <div class="mb-3"><label for="mensagem" class="form-label">Mensagem</label><textarea id="mensagem" class="form-control" rows="3"></textarea></div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+    <!-- Chatbot -->
+    <div id="chatbot" aria-live="polite">
+		<strong>ChatBot IA</strong>
+			<p id="resposta">Olá! Em que posso ajudar?</p>
+		<input type="text" id="pergunta" class="form-control mb-2" placeholder="Pergunta..."/>
+		<button type="button" class="btn btn-secondary btn-sm" aria-label="Enviar" id="btnEnviar">Enviar</button>
+	</div>
+</section>
+
+<!-- Botão para abrir o Chatbot -->
+<button id="botAbrir" class="btn btn-info">Chat</button>
+</section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 Teresa Monteiro - 25057 Todos os direitos reservados.</p>
+    <p><a href="#headerCarousel" class="text-light">Início</a> | <a href="#contato" class="text-light">Contacto</a></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script/script.js"></script>
+</body>
+</html>
