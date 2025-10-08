@@ -1,0 +1,33 @@
+.zoom {
+  transition: transform 0.3s ease;
+}
+.zoom:hover {
+  transform: scale(1.05);
+}
+#botAbrir {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1050;
+}
+#chatbot {
+  display: none;
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  max-width: 300px;
+  background: #f8f9fa;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  z-index: 1050;
+}
+@media (max-width: 576px) {
+  #chatbot, #botAbrir {
+    right: 10px;
+    bottom: 70px;
+  }
+}
+footer,p{
+	text-align: center;
+}
